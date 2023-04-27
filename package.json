@@ -1,0 +1,19 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "yarn cypress open"
+  },
+  "author": "Awadhesh Jha",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.6.0",
+    "cypress-match-screenshot": "^1.1.0"
+  },
+  "dependencies": {
+    "yarn": "^1.22.19"
+  }
+}
