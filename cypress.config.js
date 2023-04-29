@@ -3,7 +3,7 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   e2e: {
     baseUrl: 'https://demoqa.com',
-    screenshotsFolder: 'cypress/screenshots',
+    "video": false,
     chromeWebSecurity: false,
     "trashAssetsBeforeHeadlessRuns": false,
     reporter: 'junit',
