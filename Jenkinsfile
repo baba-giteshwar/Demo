@@ -13,6 +13,11 @@ pipeline {
                 sh 'npm i'
             }
         }
+        stage('cypress install') {
+            steps {
+                sh 'npx cypress install'
+            }
+        }
         stage('Build') {
             steps {
                 sh 'npx cypress run'
